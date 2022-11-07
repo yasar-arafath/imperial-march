@@ -1,2 +1,2 @@
-# imperial-march
+# Imperial March
 This project required the noise reduction of a song, The Imperial March from Star Wars. Several types of noise had been added to the audio file, and needed to be removed. The code in imperial_march_fft.m finds the noise. Using this information, four [band stop filters](https://en.wikipedia.org/wiki/Band-stop_filter) were designed and [implemented](http://www.mathworks.com/help/matlab/ref/filter.html) in imperial_march_filter.m. The program produced a noiseless song after several tweaks with the filter parameters.
